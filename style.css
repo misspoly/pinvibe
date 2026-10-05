@@ -247,7 +247,35 @@ main { max-width: 1200px; margin: 0 auto; }
   text-align: center;
   color: var(--plum-soft);
   font-size: 1.1rem;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Board search */
+.board-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+.board-search input {
+  width: min(420px, 90%);
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  border: 2px solid var(--pink-soft, #ffd9e8);
+  background: var(--white);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--plum, #5b4a5e);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.board-search input:focus {
+  border-color: var(--pink-deep);
+  box-shadow: 0 0 0 4px rgba(255, 120, 170, 0.15);
+}
+.search-empty {
+  text-align: center;
+  color: var(--plum-soft);
+  margin-bottom: 1.5rem;
 }
 
 /* Wavy divider between hero-adjacent sections */
