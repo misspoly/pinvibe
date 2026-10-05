@@ -3,8 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PinVibe — Cute stickers, aesthetic vibes & daily inspiration</title>
-  <meta name="description" content="PinVibe is a daily dose of cute and creative — funny stickers, motivational quotes, aesthetic wallpapers, recipes, decor, beauty, travel and fashion. New original pins every day on Pinterest.">
+  <title>PinVibe | Cute Stickers, Aesthetic Wallpapers &amp; Daily Inspiration on Pinterest</title>
+  <meta name="description" content="PinVibe (@pinvibe_official) is your daily dose of cute & creative on Pinterest — funny animal stickers, motivational quotes, aesthetic wallpapers, smart living tips, photo ideas, DIY home decor, tasty recipes, beauty tips, travel guides and fashion inspiration. Fresh original pins every day.">
+  <meta name="keywords" content="cute stickers, funny stickers, aesthetic wallpapers, motivational quotes, daily quotes, kawaii stickers, Pinterest boards, photo ideas, DIY home decor, tasty recipes, beauty tips, travel inspiration, fashion ideas, smart living tips, PinVibe">
+  <meta name="author" content="PinVibe">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://misspoly.github.io/pinvibe/">
+  <meta name="theme-color" content="#ffd9e8">
+
+  <!-- Favicon: PinVibe sloth logo -->
+  <link rel="icon" type="image/png" href="assets/media-generation-pinvibe-logo-0-538815f2-34aa-4bbe-852d-8338e06ce1da.png">
+  <link rel="apple-touch-icon" href="assets/media-generation-pinvibe-logo-0-538815f2-34aa-4bbe-852d-8338e06ce1da.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PinVibe">
+  <meta property="og:title" content="PinVibe | Cute Stickers, Aesthetic Wallpapers & Daily Inspiration">
+  <meta property="og:description" content="Funny stickers, motivational quotes, aesthetic wallpapers, recipes, decor, beauty, travel & fashion — fresh original pins every day on Pinterest @pinvibe_official.">
+  <meta property="og:url" content="https://misspoly.github.io/pinvibe/">
+  <meta property="og:image" content="https://misspoly.github.io/pinvibe/assets/hero.jpg">
+  <meta property="og:image:alt" content="PinVibe — cute stickers and aesthetic vibes">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PinVibe | Cute Stickers, Aesthetic Wallpapers & Daily Inspiration">
+  <meta name="twitter:description" content="Fresh original pins every day on Pinterest @pinvibe_official — stickers, quotes, wallpapers, recipes, decor, beauty, travel & fashion.">
+  <meta name="twitter:image" content="https://misspoly.github.io/pinvibe/assets/hero.jpg">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PinVibe",
+    "url": "https://misspoly.github.io/pinvibe/",
+    "description": "Cute stickers, aesthetic wallpapers and daily inspiration — fresh original pins every day on Pinterest.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "PinVibe",
+      "logo": "https://misspoly.github.io/pinvibe/assets/media-generation-pinvibe-logo-0-538815f2-34aa-4bbe-852d-8338e06ce1da.png",
+      "sameAs": ["https://www.pinterest.com/pinvibe_official/"]
+    }
+  }
+  </script>
+
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +55,11 @@
 <body>
 
   <!-- Sticky nav -->
-  <nav class="nav">
-    <a href="#top" class="wordmark">PinVibe</a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#top" class="brand">
+      <img class="brand-logo" src="assets/media-generation-pinvibe-logo-0-538815f2-34aa-4bbe-852d-8338e06ce1da.png" alt="PinVibe cute sloth logo" width="44" height="44">
+      <span class="wordmark">PinVibe</span>
+    </a>
     <div class="nav-links">
       <a href="#categories">Categories</a>
       <a href="#about">About</a>
@@ -25,7 +70,13 @@
   <!-- Hero -->
   <header class="hero" id="top">
     <div class="hero-overlay"></div>
+    <span class="sparkle s1" aria-hidden="true">✨</span>
+    <span class="sparkle s2" aria-hidden="true">💖</span>
+    <span class="sparkle s3" aria-hidden="true">✨</span>
+    <span class="sparkle s4" aria-hidden="true">🌸</span>
+    <span class="sparkle s5" aria-hidden="true">✨</span>
     <div class="hero-inner">
+      <img class="hero-logo" src="assets/media-generation-pinvibe-logo-0-538815f2-34aa-4bbe-852d-8338e06ce1da.png" alt="PinVibe logo — cute sloth hugging an iced coffee" width="180" height="180" fetchpriority="high">
       <h1 class="hero-title">PinVibe</h1>
       <p class="hero-tagline">Cute stickers, aesthetic vibes &amp; daily inspiration — pinned fresh every day.</p>
       <div class="hero-buttons">
@@ -36,7 +87,7 @@
   </header>
 
   <!-- Stats strip -->
-  <section class="stats">
+  <section class="stats" aria-label="PinVibe at a glance">
     <div class="stats-inner">
       <span class="stat"><strong>10</strong> curated boards</span>
       <span class="stat-dot" aria-hidden="true">•</span>
@@ -48,111 +99,133 @@
 
   <!-- Categories -->
   <main>
-    <section class="categories" id="categories">
+    <section class="categories" id="categories" aria-label="Pinterest boards">
       <h2 class="section-title">Explore the boards</h2>
       <p class="section-sub">Ten little worlds of cute &amp; creative — pick your vibe.</p>
 
       <div class="grid">
         <article class="card">
-          <img src="assets/stickers.webp" alt="Funny cartoon stickers" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/stickers.webp" alt="Funny cartoon stickers" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Funny Stickers</h3>
             <p>Silly die-cut stickers to make every chat funnier.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/funny-stickers/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/funny-stickers/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/quotes.webp" alt="Motivational daily quote artwork" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/quotes.webp" alt="Motivational daily quote artwork" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Daily Quotes</h3>
             <p>Little sparks of motivation, fresh every morning.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/daily-quotes/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/daily-quotes/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/wallpapers.webp" alt="Aesthetic dreamy wallpaper" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/wallpapers.webp" alt="Aesthetic dreamy wallpaper" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Aesthetic Wallpapers</h3>
             <p>Dreamy backgrounds for your phone and desktop.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/aesthetic-wallpapers/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/aesthetic-wallpapers/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/tips.webp" alt="Smart living tips infographic" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/tips.webp" alt="Smart living tips infographic" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Smart Living Tips</h3>
             <p>Tiny habits and clever hacks for everyday life.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/smart-living-tips/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/smart-living-tips/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/photo-ideas.webp" alt="Golden hour photo idea" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/photo-ideas.webp" alt="Golden hour photo idea" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Photo Ideas</h3>
             <p>Poses, light and inspo for your next perfect shot.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/photo-ideas/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/photo-ideas/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/decor.webp" alt="Cozy DIY home decor" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/decor.webp" alt="Cozy DIY home decor" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>DIY &amp; Home Decor</h3>
             <p>Cozy corners and crafty makeovers on a budget.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/diy-home-decor/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/diy-home-decor/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/recipes.webp" alt="Tasty recipe dish" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/recipes.webp" alt="Tasty recipe dish" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Tasty Recipes</h3>
             <p>Yummy recipes worth drooling over.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/tasty-recipes/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/tasty-recipes/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/beauty.webp" alt="Beauty and skincare flat lay" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/beauty.webp" alt="Beauty and skincare flat lay" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Beauty Tips</h3>
             <p>Glow-ups, skincare and everyday beauty inspo.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/beauty-tips/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/beauty-tips/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/travel.webp" alt="Dreamy travel destination" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/travel.webp" alt="Dreamy travel destination" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Travel Guides</h3>
             <p>Wanderlust fuel and dreamy destinations.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/travel-guides/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/travel-guides/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/fashion.webp" alt="Fashion outfit inspiration" loading="lazy">
+          <div class="card-img-wrap">
+            <img src="assets/fashion.webp" alt="Fashion outfit inspiration" loading="lazy">
+          </div>
           <div class="card-body">
             <h3>Fashion Ideas</h3>
             <p>Outfit inspo for every mood and season.</p>
-            <a href="https://www.pinterest.com/pinvibe_official/fashion-ideas/" target="_blank" rel="noopener">View Board →</a>
+            <a class="card-link" href="https://www.pinterest.com/pinvibe_official/fashion-ideas/" target="_blank" rel="noopener">View Board →</a>
           </div>
         </article>
+
+        <!-- NEW BOARD CARDS: append new <article class="card"> blocks here (copy the pattern above) -->
       </div>
     </section>
 
     <!-- About -->
-    <section class="about" id="about">
+    <section class="about" id="about" aria-label="About PinVibe">
       <h2 class="section-title">About PinVibe</h2>
       <p>PinVibe is a daily dose of cute and creative — from funny stickers and motivational quotes to recipes, decor and travel dreams. New original pins drop every day on Pinterest.</p>
     </section>
 
     <!-- CTA -->
-    <section class="cta">
+    <section class="cta" aria-label="Follow PinVibe">
       <h2>Get your daily PinVibe fix</h2>
       <p>Follow along for fresh pins every single day.</p>
       <a class="btn btn-primary btn-lg" href="https://www.pinterest.com/pinvibe_official/" target="_blank" rel="noopener">Follow on Pinterest</a>
